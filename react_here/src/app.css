@@ -1,5 +1,54 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
+
+
+
+
+
+/*.theme-light {*/
+/*        --background-color: #0060df;*/
+/*        --primary-color: #fbfbfe;*/
+/*        --color-accent: #fd6f53;*/
+/*        --font-color: #000000;*/
+/*}*/
+
+/*.theme-dark {*/
+/*        --background-color: #1A200E;*/
+/*        --primary-color: #222B13;*/
+/*        --color-accent: #12cdea;*/
+/*        --font-color: #000000;*/
+/*}*/
+
+/*.auth {*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        background-color: var(--background-color);*/
+/*        height: 100vh;*/
+/*        width: 100vw;*/
+/*}*/
+
+/*.login_center_block {*/
+/*        text-align: center;*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        background-color: var(--primary-color);*/
+/*        padding: 20px;*/
+/*        border-radius: 10px;*/
+/*        color: black;*/
+/*}*/
+
+/*.input {*/
+/*        background-color: var(--primary-color);*/
+/*        display: flex;*/
+/*        padding: 5px;*/
+/*        border-top: none;*/
+/*        border-left: none;*/
+/*        border-right: none;*/
+/*        border-bottom-width: 1px;*/
+/*        border-bottom-color: var(--color-accent);*/
+/*}*/
+
+/*.input::placeholder {*/
+/*        opacity: 0.2;*/
+/*        color: var(--color-accent);*/
+/*        text-align: center;*/
+/*}*/
