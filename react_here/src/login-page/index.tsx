@@ -1,14 +1,14 @@
 import React from 'react';
-import './app.css';
+import '../app.css';
 import {Button, Card, Stack, TextField, Typography} from "@mui/material";
 
-const Login = () => {
+export default function LoginPage() {
     return (
         <div>
-            <Stack sx={{height:"100vh",width:"100%"}} justifyContent="center" alignItems="center">
-                <Card variant="outlined" sx={{height:270,width:480,p:3}}>
+            <Stack sx={{height: "100vh", width: "100%"}} justifyContent="center" alignItems="center">
+                <Card variant="outlined" sx={{height: 270, width: 480, p: 3}}>
                     <Stack spacing={2.5}>
-                        <Typography textAlign="center" variant="h4" sx={{mb:2}}>
+                        <Typography textAlign="center" variant="h4" sx={{mb: 2}}>
                             Login
                         </Typography>
                         <TextField fullWidth label="Username" variant="outlined" size="small"/>
@@ -37,6 +37,3 @@ const Login = () => {
         </div>
     );
 };
-
-
-export default Login;

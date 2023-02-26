@@ -1,12 +1,17 @@
 import React from 'react';
 import './app.css';
-import Login from './login';
-// import {setThemeOnPageLoad} from './theme';
+import MainPage from './main-page';
+import {Box} from "@mui/material";
+import TopBar from "./top-bar";
 
-const App = () => {
-
-    return Login();
-
+export default function App() {
+    return (
+        <Box>
+            <TopBar/>
+            <Box sx={{pt: 5}}>
+                <MainPage/>
+            </Box>
+        </Box>
+    );
 }
 
-export default App;
